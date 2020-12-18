@@ -18,6 +18,7 @@ export default function Tile() {
       />
       <GridListTileBar
         title={tile.title}
+        subtitle={<span>by: {tile.author}</span>}
         actionIcon={
           <IconButton
             aria-label={`info about ${tile.title}`}
